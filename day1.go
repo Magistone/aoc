@@ -11,7 +11,7 @@ import (
 );
 
 
-func main() {
+func day1() {
     content, error := os.Open("input")
     if error != nil {
         fmt.Println("can't read file")
@@ -69,12 +69,4 @@ func main() {
     }
 
     fmt.Println(sum)
-
-
-
-
-
-
-
-
 }
