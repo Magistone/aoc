@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-    day2()   
+    day4()   
 }
 
 
